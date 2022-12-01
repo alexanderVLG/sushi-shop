@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d603c350.css",
+    "main.js": "/static/js/main.6d62ddf7.js",
+    "static/media/combo.jpg": "/static/media/combo.fd1309a1bad0d7bad1ab.jpg",
+    "static/media/chiken.jpg": "/static/media/chiken.357fe4b0506eb9e67276.jpg",
+    "static/media/promo.jpg": "/static/media/promo.74c3ae008550fd4660f4.jpg",
+    "static/media/corndog.jpg": "/static/media/corndog.f441a9ae1ce283f538dc.jpg",
+    "static/media/sets.jpg": "/static/media/sets.6aa470b1b67297f7a39d.jpg",
+    "static/media/pizza.jpg": "/static/media/pizza.b074cc3ab1e1b8552a92.jpg",
+    "static/media/soup.jpg": "/static/media/soup.f1f78365bf05218b8d08.jpg",
+    "static/media/eel.jpg": "/static/media/eel.9c52cda7e8dceb7d2275.jpg",
+    "static/media/wok.jpg": "/static/media/wok.8837567fde0e2b6f5f0b.jpg",
+    "static/media/salad.jpg": "/static/media/salad.eb08ac951430122bb693.jpg",
+    "static/media/rolls.jpg": "/static/media/rolls.494212b9f6f9415a2cfd.jpg",
+    "static/media/sushi.jpg": "/static/media/sushi.d5eaed465a37acf7fc63.jpg",
+    "index.html": "/index.html",
+    "main.d603c350.css.map": "/static/css/main.d603c350.css.map",
+    "main.6d62ddf7.js.map": "/static/js/main.6d62ddf7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d603c350.css",
+    "static/js/main.6d62ddf7.js"
+  ]
+}
