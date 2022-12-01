@@ -1,0 +1,31 @@
+.mobile-footer {
+  padding: 0.6875rem 3.5625rem 0.6875rem 4.8125rem;
+  background-color: var(--white);
+  border-top: 1px solid var(--gray);
+}
+
+.mobile-footer__list {
+  display: flex;
+  width: 14.125rem;
+}
+
+.mobile-footer__list li:not(:last-of-type) {
+  margin-right: 2.1875rem;
+}
+
+.mobile-footer__list li div {
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-footer__list li div:first-of-type {
+  margin-bottom: 0.1875rem;
+}
+
+.mobile-footer__list a {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--black);
+  text-decoration: none;
+}

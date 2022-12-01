@@ -1,0 +1,38 @@
+main {
+  background-color: var(--light-gray);
+}
+.product__list {
+  padding: 1.25rem .9375rem;
+  display: grid;
+  grid-template-columns: repeat(2, 162px);
+  gap: 10px;
+}
+
+.product__item--wider {
+  grid-column: 1 / -1;
+}
+
+.product__item {
+  position: relative;
+}
+
+.product__item img {
+  border-radius: 5px;
+}
+
+.product__item div {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 11px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--white);
+}
+
+.product__item .product__title--bottom {
+  top: auto;
+  left: 7px;
+  bottom: 7px;
+}
