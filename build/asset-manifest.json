@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.d603c350.css",
-    "main.js": "/static/js/main.6d62ddf7.js",
-    "static/media/combo.jpg": "/static/media/combo.fd1309a1bad0d7bad1ab.jpg",
-    "static/media/chiken.jpg": "/static/media/chiken.357fe4b0506eb9e67276.jpg",
-    "static/media/promo.jpg": "/static/media/promo.74c3ae008550fd4660f4.jpg",
-    "static/media/corndog.jpg": "/static/media/corndog.f441a9ae1ce283f538dc.jpg",
-    "static/media/sets.jpg": "/static/media/sets.6aa470b1b67297f7a39d.jpg",
-    "static/media/pizza.jpg": "/static/media/pizza.b074cc3ab1e1b8552a92.jpg",
-    "static/media/soup.jpg": "/static/media/soup.f1f78365bf05218b8d08.jpg",
-    "static/media/eel.jpg": "/static/media/eel.9c52cda7e8dceb7d2275.jpg",
-    "static/media/wok.jpg": "/static/media/wok.8837567fde0e2b6f5f0b.jpg",
-    "static/media/salad.jpg": "/static/media/salad.eb08ac951430122bb693.jpg",
-    "static/media/rolls.jpg": "/static/media/rolls.494212b9f6f9415a2cfd.jpg",
-    "static/media/sushi.jpg": "/static/media/sushi.d5eaed465a37acf7fc63.jpg",
+    "main.css": "/static/css/main.d77dcfd0.css",
+    "main.js": "/static/js/main.299fe7a8.js",
+    "static/media/combo.jpg": "/static/media/combo.c4c7d187c404a00a4905.jpg",
+    "static/media/chiken.jpg": "/static/media/chiken.3583d7c382340d6124bf.jpg",
+    "static/media/promo.jpg": "/static/media/promo.1424045c89d4be580370.jpg",
+    "static/media/wok.jpg": "/static/media/wok.3a397030db7b2854edfe.jpg",
+    "static/media/pizza.jpg": "/static/media/pizza.7944b3b4694a513d5cc4.jpg",
+    "static/media/sets.jpg": "/static/media/sets.df35cbfe9678d8f09897.jpg",
+    "static/media/corndog.jpg": "/static/media/corndog.1afe3544ae022c7abd80.jpg",
+    "static/media/soup.jpg": "/static/media/soup.dcbf0ab523fa639a6313.jpg",
+    "static/media/salad.jpg": "/static/media/salad.472ee72dea986cf676f1.jpg",
+    "static/media/eel.jpg": "/static/media/eel.0b33119dbab8ba5b8651.jpg",
+    "static/media/beverages.jpg": "/static/media/beverages.4747e2ea2bdbf3773f3f.jpg",
+    "static/media/rolls.jpg": "/static/media/rolls.f6f04b6382dafd3b2689.jpg",
+    "static/media/sushi.jpg": "/static/media/sushi.078c6548fd9d5b051c05.jpg",
     "index.html": "/index.html",
-    "main.d603c350.css.map": "/static/css/main.d603c350.css.map",
-    "main.6d62ddf7.js.map": "/static/js/main.6d62ddf7.js.map"
+    "main.d77dcfd0.css.map": "/static/css/main.d77dcfd0.css.map",
+    "main.299fe7a8.js.map": "/static/js/main.299fe7a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.d603c350.css",
-    "static/js/main.6d62ddf7.js"
+    "static/css/main.d77dcfd0.css",
+    "static/js/main.299fe7a8.js"
   ]
 }

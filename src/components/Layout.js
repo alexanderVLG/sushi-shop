@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import '../styles/Layout.css';
 import About from "./About";
-import Footer from "./Footer";
 import pizza from '../img/pizza.jpg';
 import sets from '../img/sets.jpg';
 import wok from '../img/wok.jpg';
@@ -100,7 +99,6 @@ class Layout extends Component {
           </div>
           </section>
           <About />
-          <Footer />
         </main>
       </>
     )
