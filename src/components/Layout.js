@@ -49,13 +49,13 @@ class Layout extends Component {
             </a>
             <div>Суши</div>
           </div>
-          <div className="product__item">
+          <div className="product__item product__item--soon">
             <a href="#">
               <img src={soup} alt="Фото роллов и суши."/>
             </a>
             <div>Супы</div>
           </div>
-          <div className="product__item">
+          <div className="product__item product__item--soon">
             <a href="#">
               <img src={salad} alt="Фото роллов и суши."/>
             </a>

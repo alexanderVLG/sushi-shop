@@ -46,7 +46,7 @@
   cursor: pointer;
 }
 
-.about__btn span::after {
+.about__btn::after {
   display: inline-block;
   margin-left: .625rem;
   vertical-align: top;
