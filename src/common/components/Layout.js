@@ -1,19 +1,19 @@
 import React, { Component } from "react";
-import '../styles/Layout.css';
+import '../../styles/Layout.css';
 import About from "./About";
-import pizza from '../img/pizza.jpg';
-import sets from '../img/sets.jpg';
-import wok from '../img/wok.jpg';
-import rolls from '../img/rolls.jpg';
-import sushi from '../img/sushi.jpg';
-import soup from '../img/soup.jpg';
-import salad from '../img/salad.jpg';
-import beverages from '../img/beverages.jpg';
-import combo from '../img/combo.jpg';
-import eel from '../img/eel.jpg';
-import corndog from '../img/corndog.jpg';
-import chiken from '../img/chiken.jpg';
-import promo from '../img/promo.jpg';
+import pizza from '../../media/img/pizza.jpg';
+import sets from '../../media/img/sets.jpg';
+import wok from '../../media/img/wok.jpg';
+import rolls from '../../media/img/rolls.jpg';
+import sushi from '../../media/img/sushi.jpg';
+import soup from '../../media/img/soup.jpg';
+import salad from '../../media/img/salad.jpg';
+import beverages from '../../media/img/beverages.jpg';
+import combo from '../../media/img/combo.jpg';
+import eel from '../../media/img/eel.jpg';
+import corndog from '../../media/img/corndog.jpg';
+import chiken from '../../media/img/chiken.jpg';
+import promo from '../../media/img/promo.jpg';
 
 class Layout extends Component {
   render () {
