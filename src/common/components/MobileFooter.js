@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import '../styles/MobileFooter.css';
+import '../../styles/MobileFooter.css';
 
 
 
