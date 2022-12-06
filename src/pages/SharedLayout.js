@@ -1,6 +1,7 @@
 import { Component } from "react";
 import { Outlet } from 'react-router-dom';
 import Navbar from "../components/Navbar";
+import About from "../components/About";
 import Footer from '../components/Footer';
 
 
@@ -12,6 +13,7 @@ class Home extends Component {
           <Navbar />
         </header>
         <Outlet />
+        <About />
         <Footer />
       </>
     );
