@@ -1,16 +1,23 @@
-import React, {Component} from 'react';
-import Header from './common/components/Header';
-import Layout from './common/components/Layout';
-import Footer from "./common/components/Footer";
+import {Component} from 'react';
+import { Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
+import Catalog from './pages/Catalog';
+import SharedLayout from './pages/SharedLayout'
+
+
+
 
 class App extends Component {
   render () {
     return (
-      <>
-        <Header />
-        <Layout />
-        <Footer />
-      </>
+      
+        <Routes>
+          <Route path="/" element={<SharedLayout />}>
+            <Route index element={<Home />} />
+            <Route path="catalog" element={<Catalog />} />
+          </Route>          
+        </Routes>
+      
     )
   }
 }

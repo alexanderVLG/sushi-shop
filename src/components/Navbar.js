@@ -1,18 +1,17 @@
-import React, {Component} from "react";
-import logo from '../../media/img/logo.png';
-import '../../styles/Header.css';
+import { Component } from "react";
+import { Link } from 'react-router-dom'
+import logo from '../media/img/logo.png';
+import '../styles/Navbar.css';
 
-
-class Header extends Component {
-    render () {
-      return (
-        <header>
-          <nav>
+class Navbar extends Component {
+  render() {
+    return (
+      <nav>
             <ul className="nav__list">
               <li className="nav__item">
-                <a href="#">  
+                <Link to="/">  
                   <img className="logo" src={logo} alt="Логотип." width="40" height="40" />
-                </a>
+                </Link>
               </li>
               <li className="nav__item">
                 <ul className="header__phones">
@@ -33,10 +32,8 @@ class Header extends Component {
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none"><path fill="#A4ACAD" d="m29.817 28.933-9.128-9.128a11.813 11.813 0 0 0 3.061-7.93C23.75 5.327 18.423 0 11.875 0S0 5.327 0 11.875 5.327 23.75 11.875 23.75c3.05 0 5.825-1.165 7.93-3.061l9.128 9.128a.623.623 0 0 0 .884 0 .625.625 0 0 0 0-.884ZM11.875 22.5C6.017 22.5 1.25 17.734 1.25 11.875S6.017 1.25 11.875 1.25 22.5 6.016 22.5 11.875 17.733 22.5 11.875 22.5Z"/></svg>
               </li>
             </ul>
-          </nav>
-        </header>
-      )
-    }
+      </nav>
+    );
+  }
 }
-
-export default Header;
+export default Navbar;

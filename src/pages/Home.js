@@ -1,21 +1,22 @@
-import React, { Component } from "react";
-import '../../styles/Layout.css';
-import About from "./About";
-import pizza from '../../media/img/pizza.jpg';
-import sets from '../../media/img/sets.jpg';
-import wok from '../../media/img/wok.jpg';
-import rolls from '../../media/img/rolls.jpg';
-import sushi from '../../media/img/sushi.jpg';
-import soup from '../../media/img/soup.jpg';
-import salad from '../../media/img/salad.jpg';
-import beverages from '../../media/img/beverages.jpg';
-import combo from '../../media/img/combo.jpg';
-import eel from '../../media/img/eel.jpg';
-import corndog from '../../media/img/corndog.jpg';
-import chiken from '../../media/img/chiken.jpg';
-import promo from '../../media/img/promo.jpg';
+import { Component } from "react";
+import '../styles/Home.css';
+import { Link } from 'react-router-dom';
+import About from "../components/About";
+import pizza from '../media/img/pizza.jpg';
+import sets from '../media/img/sets.jpg';
+import wok from '../media/img/wok.jpg';
+import rolls from '../media/img/rolls.jpg';
+import sushi from '../media/img/sushi.jpg';
+import soup from '../media/img/soup.jpg';
+import salad from '../media/img/salad.jpg';
+import beverages from '../media/img/beverages.jpg';
+import combo from '../media/img/combo.jpg';
+import eel from '../media/img/eel.jpg';
+import corndog from '../media/img/corndog.jpg';
+import chiken from '../media/img/chiken.jpg';
+import promo from '../media/img/promo.jpg';
 
-class Layout extends Component {
+class Home extends Component {
   render () {
     return (
       <>
@@ -26,9 +27,9 @@ class Layout extends Component {
             <div>Пицца</div>
           </div>
           <div className="product__item">
-            <a href="#">
+            <Link to="/catalog">
               <img src={sets} alt="Фото роллов и суши."/>
-            </a>
+            </Link>
             <div>Сеты</div>
           </div>
           <div className="product__item">
@@ -106,4 +107,4 @@ class Layout extends Component {
 }
 
 
-export default Layout;
+export default Home;
