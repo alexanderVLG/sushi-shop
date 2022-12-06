@@ -1,5 +1,4 @@
-import React, {Component} from "react";
-import '../styles/About.css';
+import {Component} from "react";
 
 class About extends Component {
   constructor(props) {
@@ -38,7 +37,7 @@ class About extends Component {
           <p>В меню также представлены гунканы: с начинкой из красной икры и тобико, а также феликсы, где японский майонез сочетается с рыбой, морепродуктами, угрем. Любители острых блюд могут купить суши с соусом спайси. Популярные начинки — копченая курица, снежный краб, креветки, гребешки, тунец, лосось и окунь.
           </p>
         </article>
-        <div onClick={this.handleClick} className="about__btn">Подробнее</div>
+        <div onClick={this.handleClick} className="about__btn icon__arrow">Подробнее</div>
       </>
     );
   }

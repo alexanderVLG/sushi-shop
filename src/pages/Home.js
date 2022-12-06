@@ -1,5 +1,4 @@
 import { Component } from "react";
-import '../styles/Home.css';
 import { Link } from 'react-router-dom';
 import About from "../components/About";
 import pizza from '../media/img/pizza.jpg';
@@ -19,89 +18,86 @@ import promo from '../media/img/promo.jpg';
 class Home extends Component {
   render () {
     return (
-      <>
-        <main>
-          <section className="product__list">
-          <div className="product__item">
+      <main>
+          <section className="menu__list">
+          <div className="menu__item">
               <img src={pizza} alt="Фото пиццы с томатной пастой, базиликом и сыром."/>
             <div>Пицца</div>
           </div>
-          <div className="product__item">
+          <div className="menu__item">
             <Link to="/catalog">
               <img src={sets} alt="Фото роллов и суши."/>
             </Link>
             <div>Сеты</div>
           </div>
-          <div className="product__item">
+          <div className="menu__item">
             <a href="#">
               <img src={wok} alt="Фото роллов и суши."/>
             </a>
             <div>Wok</div>
           </div>
-          <div className="product__item">
+          <div className="menu__item">
             <a href="#">
               <img src={rolls} alt="Фото роллов и суши."/>
             </a>
             <div>Роллы</div>
           </div>
-          <div className="product__item">
+          <div className="menu__item">
             <a href="#">
               <img src={sushi} alt="Фото роллов и суши."/>
             </a>
             <div>Суши</div>
           </div>
-          <div className="product__item product__item--soon">
+          <div className="menu__item menu__item--soon">
             <a href="#">
               <img src={soup} alt="Фото роллов и суши."/>
             </a>
             <div>Супы</div>
           </div>
-          <div className="product__item product__item--soon">
+          <div className="menu__item menu__item--soon">
             <a href="#">
               <img src={salad} alt="Фото роллов и суши."/>
             </a>
             <div>Салаты</div>
           </div>
-          <div className="product__item">
+          <div className="menu__item">
             <a href="#">
               <img src={beverages} alt="Фото роллов и суши."/>
             </a>
             <div>Напитки</div>
           </div>
-          <div className="product__item product__item--wider">
+          <div className="menu__item menu__item--wider">
             <a href="#">
               <img src={combo} alt="Фото роллов и суши."/>
             </a>
-            <div className="product__title--bottom">Комбо</div>
+            <div className="menu__title--bottom">Комбо</div>
           </div>
-          <div className="product__item">
+          <div className="menu__item">
             <a href="#">
               <img src={eel} alt="Фото роллов и суши."/>
             </a>
-            <div className="product__title--bottom">Угорь</div>
+            <div className="menu__title--bottom">Угорь</div>
           </div>
-          <div className="product__item">
+          <div className="menu__item">
             <a href="#">
               <img src={corndog} alt="Фото роллов и суши."/>
             </a>
-            <div className="product__title--bottom">Корн дог</div>
+            <div className="menu__title--bottom">Корн дог</div>
           </div>
-          <div className="product__item product__item--wider">
+          <div className="menu__item menu__item--wider">
             <a href="#">
               <img src={chiken} alt="Фото роллов и суши."/>
             </a>
-            <div className="product__title--bottom">Чикен</div>
+            <div className="menu__title--bottom">Чикен</div>
           </div>
-          <div className="product__item product__item--wider">
+          <div className="menu__item menu__item--wider">
             <a href="#">
               <img src={promo} alt="Фото роллов и суши."/>
             </a>
-            <div className="product__title--bottom">Акции</div>
+            <div className="menu__title--bottom">Акции</div>
           </div>
           </section>
-          <About />
-        </main>
-      </>
+      </main>
     )
   }
 }
