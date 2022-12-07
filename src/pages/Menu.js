@@ -1,4 +1,5 @@
 import { Component } from "react";
+import sushiSet from '../media/productsImg/sushiSet.png'
 
 class Menu extends Component {
   render() {
@@ -14,9 +15,9 @@ class Menu extends Component {
           <ul className="cards__list">
             <li className="card__item">
               <h5 className="card__title">Филадельфия и Лосось сет</h5>
-              <img scr="#" alt="" />
+              <img className="card__img" src={sushiSet} alt="много роллов." />
               <p className="card__desc">1050 грамм, 30 кусочков</p>
-              <p className="card__price">1500 СОМ</p>
+              <p className="card__price">1500 РУБ</p>
               <button className="card__btn" type="button">Хочу!</button>
             </li>
           </ul>

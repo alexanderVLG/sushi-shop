@@ -27,7 +27,7 @@ body {
   font-weight: 400;
 }
 
-h1, h2, h3, h4, p, figure, aside {
+h1, h2, h3, h4, h5, p, figure, aside {
   margin: 0;
   padding: 0;
 }
@@ -254,21 +254,81 @@ main {
   align-self: baseline;
   width: 15px;
   height: 15px;
-  border-bottom: 1px solid var(--dkorange);
-  border-left: 1px solid var(--dkorange);
+  border-bottom: .0625rem solid var(--dkorange);
+  border-left: .0625rem solid var(--dkorange);
   transform: rotate(-45deg);
 }
 
+/* --------- Cards --------------- */
 
+.cards__list {
+  padding: .9375rem;
+}
 
+.card__item {
+  display: grid;
+  grid-template-columns:  1.125rem 6.25rem repeat(3, 1fr) .625rem;
+  grid-template-rows: 1.125rem repeat(4, 21px) 1.125rem;
+  width: 20.625rem;
+  background-color: var(--white);
+  border-radius: .625rem;
+}
 
+.card__img {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.card__title {
+  grid-column: 3 / -1;
+  grid-row: 2;
+  margin-left: 0.9375rem;
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.24;
+}
+
+.card__desc {
+  grid-column: 3 / -1;
+  grid-row: 3;
+  margin-left: 0.9375rem;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.24;
+  color: var(--gray);
+}
+
+.card__price {
+  grid-column: 3 / 5;
+  grid-row: 4/6;
+  margin-top: auto;
+  margin-left: 0.9375rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.27;
+}
+
+.card__btn {
+  grid-column: 4 / 6;
+  grid-row: 4 / 6 ;
+  margin-top: auto;
+  margin-left: auto;
+  padding: .125rem 1.5625rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.22;
+  color: var(--light-gray);
+  background-color: var(--dkorange);
+  border-radius: .3125rem;
+  border: none;
+}
 
 /* -------------- About ----------------- */
 .about {
   padding: 0 .9375rem;
   padding-bottom: 2rem;
-  max-width: 950px;
-  height: 190px;
+  max-width: 59.375rem;
+  height: 11.875rem;
   overflow: hidden; 
   background-color: var(--light-gray);
 }
